@@ -1,0 +1,89 @@
+/* ─── RESET & GLOBAL ───────────────────────────────────────── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #ffffff;          /* keeps the centre patch white */
+  color: #1d1d38;
+  text-align: center;
+  padding: 40px;
+}
+
+/* ─── NAVBAR ──────────────────────────────────────────────── */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1d1d38;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* ─── INTRO / HERO ────────────────────────────────────────── */
+.intro { margin-top: 100px; }
+
+.intro h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.tag {
+  display: inline-block;
+  background: #5edfff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.intro a        { color: #5edfff; font-weight: 700; text-decoration: none; }
+.intro a[href*="Pratt"]     { color: #ff6f6f; }
+.intro a[href*="Accenture"] { color: #f4b400; }
+.intro a[href*="GE"]        { color: #00bcd4; }
+.intro a[href*="X"]         { color: #ff6f6f; }
+
+/* ─── LOGO BLOCK ─────────────────────────────────────────── */
+.logo-wrapper {
+  display: inline-block;
+  background: #ffffff;       /* white patch behind the image */
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
+}
+
+.logo-img {
+  width: 160px;              /* tweak as needed */
+  height: auto;
+}
